@@ -138,7 +138,7 @@ Softwares
 - 7 niveles de prioridad (1 a 7 a través de los registros IPCx). Con 0 se desactiva la interrupción.
 - Permite que una interrupción de mayor prioridad invalide una de menor prioridad que esté en progreso.
 - Existe una tabla de vectores de interrupción (IVT) que indica dónde escribir la función que atenderá dicha interrución.
-- También hay una tabla alternativa (AIVT) que se usa en situaciones de depuración o pruebas. 
+- También hay una tabla alternativa (AIVT) que se usa en situaciones de depuración o pruebas sin necesidad de reprogramar las interrupciones. También puede que un programa esté dividido en aplicaciones: una aplicación en el bootloader y otra aplicación principal. Entonces, una de ellas usa el AIVT y la otra el IVT.
 - Cuando una interrupción es atendida, el PC (Program Counter) se carga con la dirección que indica la tabla de vector de interrupción (IVT)
 
 .. figure:: images/clase02/ivt.png
@@ -148,10 +148,10 @@ Softwares
    :target: http://ww1.microchip.com/downloads/en/DeviceDoc/70214C.pdf
   
 
-**¿Cómo escribir una rutina del servicio de interrupción (ISR)?**
+**¿Cómo escribir una rutina del servicio de interrupción (ISR: Interrupt Service Routine)?**
 
-- Función void sin parámetros
-- No puede ser invocada
+- Función void sin parámetros.
+- No puede ser invocada explícitamente.
 
 .. code-block::
 
@@ -217,7 +217,7 @@ Secuencia de interrupción
 
     void detectarInt0() org 0x0014  {
         IFS0bits.INT0IF = 0;
-        LATDbits.LATD0 = ~LATDbits.LATD0;
+        LATDbits.LATD0 = ~PORTDbits.RD0;
     }
 
     void configuracionPuertos()  {
