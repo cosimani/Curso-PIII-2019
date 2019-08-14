@@ -12,7 +12,9 @@ Clase 01 - PIII 2019
 :Regularidad: 
 	- 2 parciales (resolviendo ejercicios con Proteus y mikroC)
 
-	- Sin promoción
+	- 3er nota (promedio de los prácticos con Martín)
+
+	- No tiene promoción
 
 	- Proyecto final: Individual o 2 alumnos 
 	
