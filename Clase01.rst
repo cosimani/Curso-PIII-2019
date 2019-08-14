@@ -2,35 +2,25 @@
 
 .. _rcs_subversion:
 
-Clase 01 - PIII 2018
+Clase 01 - PIII 2019
 ====================
-(Fecha: 15 de agosto)
+(Fecha: 14 de agosto)
 
 :Autor: César Osimani - Martín Salamero
-:Correo: cosimani@ubp.edu.ar - martin.salamero@gmail.com
-:Fecha: 15 de agosto de 2018
+:Correo: cesarosimani@gmail.com - martin.salamero@gmail.com
+:Fecha: 14 de agosto de 2019
 :Regularidad: 
-	- 2 parciales (que pueden ser avances del proyecto final)
+	- 2 parciales (resolviendo ejercicios con Proteus y mikroC)
 
-	- 3er parcial: Entrega de todos los ejercicios publicados en GitHub. Se promedia la nota de cada ejercicio.
+	- Sin promoción
 
 	- Proyecto final: Individual o 2 alumnos 
 	
-	- Deadline para entregar el resumen (idea) del proyecto final: Una semana antes del 1er parcial
+	- El proyecto final se tiene que ir confeccionando durante el cursado de la materia.
 	
-	- Entregar la idea antes del Deadline evita realizar los parciales
-:Promoción directa: 
-	- No rinde final y la nota final de la materia será el promedio de los parciales.
-
-	- Cada alumno se evalúa individualmente por más que forme grupo con otro alumno.
-
-	- Asistencia del 90% o superior
-
-	- Los 2 parciales con 8 o más. También vale la entrega de avances del proyecto mencionado anteriormente.
-
-	- 3er parcial: Entrega de todos los ejercicios publicados en GitHub con 8 o más.
 :Final:
-	- Entrega de un trabajo integrador.
+	- Entrega del proyecto final para la nota final de la materia
+	- Cada alumno se evalúa individualmente por más que forme grupo con otro alumno.
 :Temas principales: 
   	- Arquitectura de los DSP (Digital Signal Processor)
 	- Programación en C de los dsPIC30F y dsPIC33F
