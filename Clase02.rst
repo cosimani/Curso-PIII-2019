@@ -28,7 +28,7 @@ Clase 02 - PIII 2019
 	    configuracionInicial();
 
 	    while (1)  {
-	        LATBbits.LATB0 = ~LATBbits.RB0;
+	        LATBbits.LATB0 = ~PORTBbits.RB0;
 	        Delay_ms(1000);
 	    }
 	}

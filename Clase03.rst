@@ -262,7 +262,7 @@ ADC controlando los momentos de muestreo con el Timer2
 
 	void interrupcionADC() org 0x002a  {
 
-	    LATCbits.LATC14 = !LATCbits.LATC14;  // Para debug y ver si ingresa acá
+	    LATCbits.LATC14 = !PORTCbits.RC14;  // Para debug y ver si ingresa acá
 
 	    // Almacenamos los 8 bits más significativos
 	    PORTBbits.RB1=ADCBUF0.B2;
