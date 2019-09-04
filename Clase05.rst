@@ -2,9 +2,9 @@
 
 .. _rcs_subversion:
 
-Clase 05 - PIII 2018
+Clase 05 - PIII 2019
 ====================
-(Fecha: 19 de septiembre)
+(Fecha: 4 de septiembre)
 
 .. figure:: images/clase04/manejo_timers.png
 
@@ -164,14 +164,14 @@ ADC controlando los momentos de muestreo con el Timer2
 	    LATCbits.LATC14 = !PORTCbits.RC14;  // Para debug y ver si ingresa acá
 
 	    // Almacenamos los 8 bits más significativos
-	    PORTBbits.RB1=ADCBUF0.B2;
-	    PORTBbits.RB2=ADCBUF0.B3;
-	    PORTBbits.RB3=ADCBUF0.B4;
-	    PORTBbits.RB4=ADCBUF0.B5;
-	    PORTBbits.RB5=ADCBUF0.B6;
-	    PORTEbits.RE0=ADCBUF0.B7;
-	    PORTEbits.RE1=ADCBUF0.B8;
-	    PORTEbits.RE2=ADCBUF0.B9;
+	    PORTBbits.RB1 = ADCBUF0.B2;
+	    PORTBbits.RB2 = ADCBUF0.B3;
+	    PORTBbits.RB3 = ADCBUF0.B4;
+	    PORTBbits.RB4 = ADCBUF0.B5;
+	    PORTBbits.RB5 = ADCBUF0.B6;
+	    PORTEbits.RE0 = ADCBUF0.B7;
+	    PORTEbits.RE1 = ADCBUF0.B8;
+	    PORTEbits.RE2 = ADCBUF0.B9;
 
 	    IFS0bits.ADIF = 0; // Borramos el flag de interrupciones
 	}
@@ -197,15 +197,15 @@ ADC controlando los momentos de muestreo con el Timer2
 	    // 00 -> 1:1 - 01 -> 1:8 - 10 -> 1:64 - 11 -> 1:256
 	    T2CONbits.TCKPS = 0b01;
 
-	    TMR2=0;
-	    PR2=7;
+	    TMR2 = 0;
+	    PR2 = 7;
 
-	    IEC0bits.T2IE=1;  // Habilita interrupciones timer2
+	    IEC0bits.T2IE = 1;  // Habilita interrupciones timer2
 
 	    // Arrancamos el timer2
-	    T2CONbits.TON=1;
+	    T2CONbits.TON = 1;
 
-	    while(1)  {  }
+	    while( 1 )  {  }
 
 	    return 0;
 	}
