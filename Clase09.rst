@@ -13,7 +13,7 @@ Generador de señales
 
 .. figure:: images/clase07/senal_continua_discreta.png
 
-.. figure:: images/clase09/funcion_senoidal.jpg
+.. figure:: images/clase09/funcion_senoidal.jpeg
 
 .. figure:: images/clase07/ejemplo1_1.png
 
