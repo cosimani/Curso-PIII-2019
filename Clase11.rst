@@ -15,11 +15,15 @@ Clase 11 - PIII 2019
 
 .. figure:: images/clase08/adc_auto_3.png
 
+.. figure:: images/clase11/adc_automatico.jpeg
+
 **Ejemplo:** Realizar cálculo para muestrear la voz humana
 
 .. figure:: images/clase08/adc_auto_ejer_1.png
 
 .. figure:: images/clase08/adc_auto_ejer_2.png
+
+
 
 Ejercicio:
 ==========
