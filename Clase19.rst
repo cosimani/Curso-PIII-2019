@@ -2,7 +2,7 @@
 
 .. _rcs_subversion:
 
-Clase 13 - PIII 2018
+Clase 19 - PIII 2018
 ====================
 (Fecha: 21 de noviembre)
 
