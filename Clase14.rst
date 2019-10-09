@@ -28,11 +28,9 @@ Programación de filtros
 - El número máximo que asume n es M
 - M determina el orden de la función de transferencia
 
-- FIR: Sistema sin memoria. Convolución con muestras pasadas y actuales.
-- IIR: Sistema con memoria. Convolución con muestras pasadas y actuales, y también salidas pasadas y(n)
+- FIR (Finite Impulse Response): Convolución con muestras pasadas y actuales.
+- IIR (Infinite Impulse Response): Filtros recursivos (poseen realimentación). Convolución con muestras pasadas, actuales y también salidas pasadas
 
-- FIR: Fácil implementación y diseño pero consumen más recursos
-- IIR: Más matemática pero requieren campos de memoria más pequeños
 
 **Convolución en C**
 
