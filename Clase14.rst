@@ -32,7 +32,7 @@ Programación de filtros
 - IIR (Infinite Impulse Response): Filtros recursivos (poseen realimentación). Convolución con muestras pasadas, actuales y también salidas pasadas
 
 
-**Convolución en C**
+**Convolución en C - Filtro FIR**
 
 .. figure:: images/clase08/filtros_3.png
 
