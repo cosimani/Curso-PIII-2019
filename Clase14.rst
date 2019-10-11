@@ -55,3 +55,4 @@ Programación de filtros
 	for ( k = 0 ; k < M ; k++ )
 	    yn += h[ k ] * x[ k ];
 
+
