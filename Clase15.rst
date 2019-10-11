@@ -9,4 +9,4 @@ Clase 15 - PIII 2019
 
 **Ejemplo para revisar**
 
-- `Ejemplo de trémolo en Proteus y mikroC <https://github.com/cosimani/Curso-PIII-2018/blob/master/resources/clase15/EjemploClase15.rar?raw=true>`_
+- `Ejemplo de trémolo en Proteus y mikroC <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase15/EjemploClase15.rar?raw=true>`_
