@@ -591,8 +591,8 @@ Ejercicio:
 
 
 
-Ejercicio 14:
-============
+Ejercicio:
+==========
 
 - Usar la placa con el dsPIC30F4013 y defina los parámetros que considere para lograr lo siguiente:
 	- Filtro pasa bajos con frecuencia de corte 200 Hz
