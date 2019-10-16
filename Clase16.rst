@@ -4,7 +4,7 @@
 
 Clase 16 - PIII 2019
 ====================
-(Fecha: 16 de noviembre)
+(Fecha: 16 de octubre)
 
 
 **Función de transferencia: Filtro pasa bajos**
