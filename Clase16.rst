@@ -633,3 +633,10 @@ Ejercicio:
 
 
 
+**Ejemplos con filtros analizados en clase**
+
+- `Ejemplo Filtro_a_mano.zip <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase16/Filtro_a_mano.zip?raw=true>`_
+
+- `Ejemplo Filtro_a_manopla.zipp <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase16/Filtro_a_manopla.zip?raw=true>`_
+
+- `Ejemplo Filtro_con_libreria.zip <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase16/Filtro_con_libreria.zip?raw=true>`_
