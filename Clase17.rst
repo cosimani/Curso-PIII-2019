@@ -16,3 +16,11 @@ Clase 17 - PIII 2018
 - R-2R
 
 - Con dsPIC33FJ32MC202 en mikroC y Proteus
+
+
+**Ejemplo de primer parcial**
+
+.. figure:: images/clase17/ejemplo_primer_parcial.png	
+
+- `Programa realizado en clase - SemicicloNegativo.zip <https://github.com/cosimani/Curso-PGE-2019/blob/master/sources/clase17/SemicicloNegativo.zip?raw=true>`_
+
