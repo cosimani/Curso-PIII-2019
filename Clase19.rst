@@ -251,7 +251,7 @@ Clase 19 - PIII 2019
 	            // Analiza la amplitud de las muestras DFT y publica resultados en RB0-RB5
 	            obtenerResultado();  
 
-	            listo = 0;  // Indicamos que publicamos un resultado y ahora esperamos el proximo analisis
+	            listo = 0;  // Indicamos que publicamos un resultado y esperamos el proximo analisis
 	        }
 	    }
 	}
