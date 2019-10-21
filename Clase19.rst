@@ -110,7 +110,7 @@ Clase 19 - PIII 2019
 	    ADCON2bits.VCFG = 0b000;  // tension de referencia Avdd y Avss
 	}
 
-	// Auxiliary function for converting 1.15 radix point to IEEE floating point variable (needed for sqrt).
+	// Function for converting 1.15 radix point to IEEE floating point variable (needed for sqrt).
 	float Fract2Float( int input )  {
 	    if ( input < 0 )
 	        input = - input;
