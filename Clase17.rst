@@ -24,3 +24,6 @@ Clase 17 - PIII 2019
 
 - `Programa realizado en clase - SemicicloNegativo.zip <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase17/SemicicloNegativo.zip?raw=true>`_
 
+- `Programa que usa pulsador para incrementar la frecuencia de muestreo - Incremento_frec_muestreo.rar <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase17/Incremento_frec_muestreo.rar?raw=true>`_
+
+
