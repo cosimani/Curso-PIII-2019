@@ -7,9 +7,6 @@ Clase 20 - PIII 2019
 (Fecha: 30 de octubre)
 
 
-
-
-
 **Transformada Discreta de Fourier (DFT)**
 
 .. figure:: images/clase11/im1.png
@@ -18,19 +15,19 @@ Clase 20 - PIII 2019
 
 .. code-block:: c
 
-	float dft( float *x_n, float w, unsigned int NN )  {
+	float dft( float * x_n, float w, unsigned int NN )  {
 	    unsigned short n;
-	    float R=0.0, I=0.0;
+	    float R = 0.0, I = 0.0;
 
 	    // Bucle for para realizar las sumatorias.
-	    for( n=0 ; n<NN ; n++ )  {
+	    for( n = 0 ; n < NN ; n++ )  {
 	        // Cálculo y sumatoria de los componentes
 	        // reales e imaginarios.
-	        R += x_n[ n ] * cos( w*n );
-	        I += x_n[ n ] * sin( w*n );
+	        R += x_n[ n ] * cos( w * n );
+	        I += x_n[ n ] * sin( w * n );
 	    }
 
-	    return sqrt( R*R + I*I ); 
+	    return sqrt( R * R + I * I ); 
 	}
 
 .. figure:: images/clase11/im2.png	
@@ -42,14 +39,14 @@ Clase 20 - PIII 2019
 .. code-block:: c
 
 	void  detectarIntADC()  org 0x002E  {
-	    IFS0bits.AD1IF=0;
+	    IFS0bits.AD1IF = 0;
 
 	    // Se corren las últimas 64 muestras en el bufer x.
-	    for( i=63; i!=0; i-- )
-	        x[ i ] = x[ i-1 ];
+	    for( i = 63; i != 0; i-- )
+	        x[ i ] = x[ i - 1 ];
 
 	    // Se guarda la última muestra.
-	    x[0] = ( (float) ADC1BUF0 );
+	    x[ 0 ] = ( ( float )ADC1BUF0 );
 
 	    cont = cont + 1;  // Se cuentan las muestras tomadas.
 
@@ -59,14 +56,14 @@ Clase 20 - PIII 2019
 	        resultado2 = dft( x, 0.47123889803846, 64 );
 
 	        if( resultado1 > 500 )
-	            LATBbits.LATB0=1;
+	            LATBbits.LATB0 = 1;
 	        else
-	            LATBbits.LATB0=0;
+	            LATBbits.LATB0 = 0;
 
 	        if( resultado2 > 500 )
-	            LATBbits.LATB1=1;
+	            LATBbits.LATB1 = 1;
 	        else
-	            LATBbits.LATB1=0;
+	            LATBbits.LATB1 = 0;
 
 	        cont = 0;
 	    }
@@ -284,60 +281,4 @@ Ejercicio:
 ==========
 
 - Elegir una frecuencia particular y visualizar en los puertos RB la potencia de esa frecuencia (como un vúmetro digital).
-
-
-
-
-**Ejemplo: FFT en entrada en AN8 y envío de datos a través de UART**
-
-- `Descargar desde aquí <https://github.com/cosimani/Curso-PIII-2018/blob/master/resources/clase10/FFTyUART.rar?raw=true>`_
-
-**Ejemplo: FFT en entrada en AN7 y envío de datos a través de UART a una aplicación C++**
-
-- `Descargar desde aquí la aplicación portable <http://www.vayra.com.ar/piii2017/portable.rar>`_
-
-- `Descargar desde aquí el código fuente C++ <http://www.vayra.com.ar/piii2017/fuente.rar>`_
-
-- `Descargar desde aquí el código fuente mikroC <http://www.vayra.com.ar/piii2017/mikroc.zip>`_
-
-
-
-Grabación de dsPIC con Pickit 3
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-- El Pickit 3 permite programar el dsPIC grabando el archivo .hex compilado con el mikroC
-- Requiere el aplicativo programador. `Descargar desde aquí <https://github.com/cosimani/Curso-PIII-2018/blob/master/resources/clase11/PICkit3Setup.rar?raw=true>`_
-
-.. figure:: images/clase11/pickit3_1.png
-
-- Conectar el Pickit 3 a la PC y esperar que instale controladores (la instalación del aplicativo instala los controladores también).
-
-- Para abrirlo ejecutamos:
-
-.. figure:: images/clase10/im4.png
-
-- Podemos probar conectando la Demo board que viene con el PicKit 3 ( más info en: http://ww1.microchip.com/downloads/en/DeviceDoc/41296B.pdf )
-
-- Le damos a Check Comunication y nos detecta la Demo Board conectada:
-
-.. figure:: images/clase10/im6.png
-
-- Si conectamos el circuito de grabación del dsPIC30F3010, también lo detecta:
-
-.. figure:: images/clase10/im7.png
-
-- Se puede leer el dsPIC y grabar el firmware en un .hex y también se puede escribir nuestro .hex creado con mikroC.
-
-- Se conecta de la siguiente manera:
-
-.. figure:: images/clase11/pickit3_2.png
-
-**Ejercicio**
-
-- Hacer un Hola Mundo en mikroC simplemente para hacer parpadear un led. Escribir el programa en mikroC, compilar para generar el hex, grabarlo con el PicKit 3 y por último probarlo en la placa.
-
-
-
-
-
 
