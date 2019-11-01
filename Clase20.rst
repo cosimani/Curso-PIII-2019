@@ -4,7 +4,7 @@
 
 Clase 20 - PIII 2019
 ====================
-(Fecha: 30 de octubre)
+(Fecha: 1 de noviembre)
 
 
 **Transformada Discreta de Fourier (DFT)**
@@ -265,7 +265,7 @@ Ejercicio:
 Ejercicio:
 ==========
 
-- Modificar el ejemplo para utilizar la interrupción del ADC y no usar el timer.
+- Modificar el ejemplo para utilizar ADC automático y no usar el timer.
 
 Ejercicio:
 ==========
@@ -275,7 +275,7 @@ Ejercicio:
 Ejercicio:
 ==========
 
-- Elejir la frecuencia de una cuerda de la guitarra y adaptar el programa para hacer un afinador de esa cuerda.
+- Elegir la frecuencia de una cuerda de la guitarra y adaptar el programa para hacer un afinador de esa cuerda.
 
 Ejercicio:
 ==========

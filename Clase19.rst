@@ -326,7 +326,7 @@ Ejercicio:
 Ejemplo:
 ========
 
-- Colocar un pulsador en INT0 para conmutar entre señal sin precesar, filtro pasa bajos y filtro pasa altos.
+- Colocar un pulsador en INT0 para conmutar entre señal sin procesar, filtro pasa bajos y filtro pasa altos.
 - Utilizar la placa de desarrollo y el dsPIC30F4013
 
 - `Programa realizado en clase - Clase19_dos_filtros.zip <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase19/Clase19_dos_filtros.zip?raw=true>`_
