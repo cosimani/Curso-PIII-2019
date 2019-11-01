@@ -81,7 +81,7 @@ Clase 20 - PIII 2019
 
 
 
-**Ejemplo:** El cálculo del ejemplo anterior se encuentra optimizado dentro de la biblioteca de funciones de MikroC y se utiliza de la siguiente manera:
+**Ejemplo:** El cálculo del ejemplo anterior se encuentra optimizado dentro de la biblioteca de funciones de MikroC utilizando el algoritmo FFT y se utiliza de la siguiente manera:
 
 - Video demostración: https://www.youtube.com/watch?v=n_HLYY41g1E
 
