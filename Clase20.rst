@@ -12,6 +12,9 @@ Clase 20 - PIII 2019
 - La Transformada de Fourier nos indica de qué manera se distribuye, en función de la frecuencia, la potencia de la señal
 - La Transformada de Fourier nos transforma una función (en el dominio del tiempo t) en otra función (en el dominio de la frecuencia f).
 - La función en el dominio de la frecuencia tiene valores complejos.
+- Se calcula el módulo para conocer las magnitudes (números reales) de cada componente en frecuencia (es lo que muestra un analizador de espectro).
+- Cuando la función (en el dominio del tiempo t) es discreta, se utiliza la Transformada Discreta de Fourier (DFT: Discrete Fourier Transform).
+- La Transformada Rápida de Fourier (FFT: Fast Fourier Transform) es simplemente un algoritmo eficiente para calcular la DFT. 
 
 
 **Transformada Discreta de Fourier (DFT)**
