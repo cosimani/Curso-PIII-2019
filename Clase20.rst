@@ -6,6 +6,13 @@ Clase 20 - PIII 2019
 ====================
 (Fecha: 1 de noviembre)
 
+**Transformada de Fourier**
+
+- Es un análisis en frecuencia de las señales
+- La Transformada de Fourier nos indica de qué manera se distribuye, en función de la frecuencia, la potencia de la señal
+- La Transformada de Fourier nos transforma una función (en el dominio del tiempo t) en otra función (en el dominio de la frecuencia f).
+- La función en el dominio de la frecuencia tiene valores complejos.
+
 
 **Transformada Discreta de Fourier (DFT)**
 
