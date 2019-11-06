@@ -35,7 +35,7 @@ Grabación de dsPIC con Pickit 3
 
 .. figure:: images/clase10/im4.png
 
-- Podemos probar conectando la Demo board que viene con el PicKit 3 ( más info en: http://ww1.microchip.com/downloads/en/DeviceDoc/41296B.pdf )
+- Podemos probar conectando la Demo board que viene con el PicKit 3 ( más info en: http://ww1.microchip.com/downloads/en/devicedoc/40001296c.pdf )
 
 - Le damos a Check Comunication y nos detecta la Demo Board conectada:
 
