@@ -292,3 +292,10 @@ Ejercicio:
 
 - Elegir una frecuencia particular y visualizar en los puertos RB la potencia de esa frecuencia (como un vúmetro digital).
 
+
+Ejemplo analizado en clase:
+===========================
+
+- El siguiente código corresponde al mismo ejemplo anterior con algunas pequeñas modificaciones que decidimos en clase.
+
+- `Programa realizado en clase - clase20_PrimerFFT.zip <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase20/clase20_PrimerFFT.zip?raw=true>`_
