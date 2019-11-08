@@ -4,7 +4,7 @@
 
 Clase 21 - PIII 2019
 ====================
-(Fecha: 6 de noviembre)
+(Fecha: 8 de noviembre)
 
 
 **Ejemplo: FFT en entrada en AN8 y envío de datos a través de UART**
