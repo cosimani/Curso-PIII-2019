@@ -6,19 +6,19 @@ Clase 21 - PIII 2019
 ====================
 (Fecha: 8 de noviembre)
 
-
 **Ejemplo: FFT en entrada en AN8 y envío de datos a través de UART**
 
 - `Descargar desde aquí <https://github.com/cosimani/Curso-PIII-2018/blob/master/resources/clase10/FFTyUART.rar?raw=true>`_
 
-**Ejemplo: FFT en entrada en AN7 y envío de datos a través de UART a una aplicación C++**
+**Ejemplo: FFT en entrada en AN8 y envío de datos a través de UART a una aplicación C++**
 
 - `Descargar desde aquí la aplicación portable <http://www.vayra.com.ar/piii2017/portable.rar>`_
 
 - `Descargar desde aquí el código fuente C++ <http://www.vayra.com.ar/piii2017/fuente.rar>`_
 
-- `Descargar desde aquí el código fuente mikroC <http://www.vayra.com.ar/piii2017/mikroc.zip>`_
+- `Descargar desde aquí el código fuente mikroC <https://github.com/cosimani/Curso-PIII-2019/blob/master/resources/clase21/FFT-AN8-UART.zip?raw=true>`_
 
+- Con este programa probar cómo se generan las bandas laterales en una AM. Tener en cuenta que con los generadores de señales que tenemos, podemos generar una AM.
 
 
 Grabación de dsPIC con Pickit 3
