@@ -2,9 +2,12 @@
 
 .. _rcs_subversion:
 
-Clase 25 - PIII 2018
+Clase 25 - PIII 2019
 ====================
-(Fecha: 21 de noviembre)
+(Fecha: 22 de noviembre)
 
+
+Entrega de avances para proyecto final
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
