@@ -12,7 +12,7 @@ Práctica para proyecto final
 
 - Tener armado el R-2R con todo acondicionado para una conexión rápida a la placa.
 - Avances del código fuente para el proyecto final.
-- Pensar en la conexión hacia el parlante.
+- Pensar en la conexión hacia el parlante utilizando un LM358 como adaptador de impedancia.
 - Implementar algún procesamiento que se haya realizado con MATLAB.
 
 
